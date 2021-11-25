@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+.revealed {
+  background-color: aqua;
+}
+.smily {
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 0;
+  /* display: inline; */
+  display: flex;
+  justify-content: center;
+}
+.smily img {
+  display: inline-block;
+  width: 40px;
+  height: 50px;
+  padding: 0%;
+  font-size: large;
+  margin: 0;
+  /* display: inline; */
+}
+
+.title-game {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  text-align: center;
+
+  margin: auto;
+
+  background-color: #0d8584;
+}
+.borad {
+  margin-top: 200px;
+  background-color: lightgray;
+}
+
+table {
+  border: 5px solid rgb(95, 89, 89);
+  text-align: center;
+  height: 500px;
+  width: 500px;
+  background-color: burlywood;
+  margin: auto;
+}
+
+tr,
+td {
+  /* border: 3px solid black; */
+  height: 50px;
+  width: 50px;
+  background-color: #c0c0c0;
+  border: 1.5px solid;
+  border-top-color: #ffffff;
+  border-right-color: #7b7b7b;
+  border-bottom-color: #7b7b7b;
+  border-left-color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.modal {
+  background-color: lightseagreen;
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 15px;
+  width: 300px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.modal button {
+  float: right;
+}
+
+.timer {
+  font-family: "Digital Dismay";
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: red;
+  background-color: black;
+  text-align: center;
+  padding: 4px 4px 0 7px;
+  line-height: 1em;
+  width: 40;
+  height: 40;
+  display: inline-block;
+}
